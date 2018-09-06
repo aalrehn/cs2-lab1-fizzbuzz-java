@@ -40,4 +40,4 @@ public class TestHelloWorld {
     final String actual = fixtures[1].getMessage();
     assertEquals("hello world", actual);
   }
-}
+}cd

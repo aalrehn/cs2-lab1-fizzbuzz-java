@@ -31,9 +31,6 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <mainClass>hw.Main</mainClass>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>com.coveo</groupId>
