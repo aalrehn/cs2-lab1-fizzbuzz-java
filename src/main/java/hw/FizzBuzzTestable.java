@@ -37,12 +37,9 @@ public static void main (String []args){
 
 }
 }
-
-      
   
    public static String[] fizzBuzzArray(final int n){
-       
-      
+         
       if(n<1){
           throw new IllegalArgumentException("N<1");
           

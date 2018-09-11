@@ -9,6 +9,10 @@ public static void main (String []args){
   
     
     for (int i = 1; i<=n; i++){
+        if (n < 1) {
+  throw new IllegalArgumentException("n < 1");
+  
+}
        
         if (i % 15 ==0){
             System.out.println("fizz Buzz");
@@ -23,10 +27,7 @@ public static void main (String []args){
             System.out.println(i);
         } 
     
-      if (n < 1) {
-  throw new IllegalArgumentException("n < 1");
-  
-}
+      
 }
   
   }
