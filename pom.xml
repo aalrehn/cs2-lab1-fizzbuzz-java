@@ -31,6 +31,9 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <mainClass>hw.FizzBuzzTestable</mainClass>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>com.coveo</groupId>
